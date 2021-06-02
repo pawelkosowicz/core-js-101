@@ -32,6 +32,8 @@
  * @return {RegExp}
  */
 function getRegexForGuid() {
+  // new RegExp(/\b[0-9a-f]{8}\b-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-\b[0-9a-f]{12}\b/);
+  // return regex.exec(v);
   throw new Error('Not implemented');
 }
 
